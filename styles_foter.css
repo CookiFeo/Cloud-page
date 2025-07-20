@@ -1,0 +1,191 @@
+footer
+{
+    position: relative;
+    width: 1368px;
+    height: 488px;
+    margin-bottom: 38px;
+    left: 36px;
+    border-radius: 24px;
+    background-color: #FFF;
+    top: -44px;
+}
+
+.footer-head
+{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 32px;
+    left: 64px;
+    width: 1240px;
+}
+
+.logo-black
+{
+    position: relative;
+}
+
+.gift
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 16px 13px;
+    gap: 8px;
+    width: 255px;
+    height: 48px;
+    color: #212121;
+}
+
+.gift img
+{
+    width: 15.71px;
+    height: 15.71px;
+}
+
+.gift p
+{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 140%;
+    text-align: center;
+}
+
+.divider_line 
+{
+    border: 1px solid #E3E8F2;
+    position: relative;
+    left: 64px;
+    top: 60px;
+    width: 1240px;
+}
+
+.second-line
+{
+    top: 165px;
+}
+
+.lists
+{
+	width: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    color: #212121;
+    position: relative;
+    left: 64px;
+    top: 89px;
+}
+
+.lists .list
+{
+    flex-direction: column;
+    column-gap: 8px;
+    width: 196px;
+    height: 120px;
+}
+
+.lists h3
+{
+    width: 176px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    color: #000;
+    margin-top: 0;
+}
+
+.lists ul{
+    margin-top: 0;
+}
+
+.lists ul li
+{
+    list-style-type: none;
+    display: flex;
+    width: 200px;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 12px;
+    text-decoration: none;
+}
+
+.lists ul li a
+{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    color: #212121;
+    position: relative;
+}
+
+.lists ul li p
+{
+    margin: 0;
+}
+
+.icons-foot div img
+{
+    height: 24px;
+}
+
+.lists ul li img
+{
+    width: 20px;
+    height: 20px;
+}
+
+
+.div-foot
+{
+    width: 1240px;
+    position: absolute;
+    left: 64px;
+    top: 372px;
+    
+}
+
+.icons-foot
+{
+    display: flex;
+    flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.icons-foot div
+{
+    height: 24px;
+}
+
+
+.social-networks
+{
+    display: flex;
+    gap: 24px;
+    border: 1px;
+}
+
+.privacy-policy
+{
+    display: flex;
+    flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    color: #7C8A9A;
+    position: relative;
+    top: 32px;
+    height: 26px;
+}
